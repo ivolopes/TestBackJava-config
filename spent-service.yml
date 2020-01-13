@@ -13,3 +13,16 @@ eureka:
   server:
     wait-time-in-ms-when-sync-empty: 3000
 
+spring:
+  jpa:
+    database: spent_service
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/spent_service
+    username: spent_service
+    password: spent_service
+    driverClassName: org.postgresql.Driver
+
