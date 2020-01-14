@@ -21,7 +21,7 @@ spring:
       ddl-auto: create-drop
   datasource:
     platform: postgres
-    url: jdbc:postgresql://192.168.0.106:5433/client_service
+    url: jdbc:postgresql://localhost:5433/client_service
     username: client_service
     password: client_service
     driverClassName: org.postgresql.Driver
