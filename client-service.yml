@@ -26,4 +26,8 @@ spring:
     password: client_service
     driverClassName: org.postgresql.Driver
 
+  cloud: 
+    refresh: 
+      enabled: false
+
 
