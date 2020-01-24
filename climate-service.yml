@@ -17,7 +17,7 @@ eureka:
       enabled: false
 
 weatherMapClient:
-	id: 524901
-	appId: ccf63d8e7cab0ee1f6a3491d1c4c1cdf
-	units: metric		
+  id: 524901
+  appId: ccf63d8e7cab0ee1f6a3491d1c4c1cdf
+  units: metric		
 
