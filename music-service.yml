@@ -14,6 +14,14 @@ eureka:
     refresh: 
       enabled: false
 
+hystrix:
+  command:
+    default:
+      execution:
+        iso lation:
+          thread:
+            timeoutInMilliseconds: 10000
+
 ribbon:
   eureka:
     enabled: true
