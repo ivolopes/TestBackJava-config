@@ -1,3 +1,24 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2
+  datasource:
+    url: jdbc:h2:file:~/test
+    username: sa
+    password: admin
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate: 
+        show_sql: false
+        use_sql_comments: false
+        format_sql: false
+  main:
+    allow-bean-definition-overriding: true
+
 eureka:
   instance:
     hostname: localhost
@@ -14,10 +35,6 @@ eureka:
     refresh: 
       enabled: false
 
-feign:
-  hystrix:
-    enabled: true
-
 hystrix:
   command:
     default:
@@ -30,4 +47,6 @@ ribbon:
   eureka:
     enabled: true
 		
+jwt:
+  secret: SecretKeyToGenJWTsAppBeblueApiPassword12938#$1289329732SJjkhdfkhdfkddf%%ldflkjdflkjfdljkdf
 
