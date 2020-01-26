@@ -35,6 +35,10 @@ eureka:
     refresh: 
       enabled: false
 
+feign:
+  hystrix:
+    enabled: true
+
 hystrix:
   command:
     default:
