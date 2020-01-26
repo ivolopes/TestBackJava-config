@@ -53,4 +53,5 @@ ribbon:
 		
 jwt:
   secret: SecretKeyToGenJWTsAppBeblueApiPassword12938#$1289329732SJjkhdfkhdfkddf%%ldflkjdflkjfdljkdf
+  validityInMilliseconds: 3600000
 
