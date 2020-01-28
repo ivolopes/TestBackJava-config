@@ -29,5 +29,3 @@ hystrix:
 ribbon:
   eureka:
     enabled: true
-		
-
